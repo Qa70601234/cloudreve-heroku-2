@@ -1,4 +1,4 @@
-FROM alpine:3.9.5
+FROM redis:alpine
 ADD cloudreve /root/cloudreve/cloudreve
 ADD mycloudreve.ini /root/cloudreve/mycloudreve.ini
 ADD cloudreve.db /root/cloudreve/cloudreve.db
